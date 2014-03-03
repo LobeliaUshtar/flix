@@ -1,0 +1,569 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"def",
+				"def	def … end"
+			],
+			[
+				"do",
+				"dob	Insert do |variable| … end"
+			],
+			[
+				"if",
+				"ife	if … else … end"
+			],
+			[
+				"relea",
+				"released_on"
+			],
+			[
+				"hea",
+				"header	Tag"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"movie",
+				"movie"
+			],
+			[
+				"la",
+				"label"
+			],
+			[
+				"des",
+				"destroy"
+			],
+			[
+				"ra",
+				"rating"
+			],
+			[
+				"desc",
+				"description"
+			],
+			[
+				"it",
+				"itb	RSpec It Block"
+			],
+			[
+				"st",
+				"strong"
+			],
+			[
+				"t",
+				"td	Tag"
+			],
+			[
+				"u",
+				"ul"
+			],
+			[
+				"furcons",
+				"furcons"
+			],
+			[
+				"h",
+				"h1	Tag"
+			],
+			[
+				"mod",
+				"mod	module .. end"
+			],
+			[
+				"get",
+				"get_mod"
+			],
+			[
+				"m",
+				"multi"
+			],
+			[
+				"cla",
+				"cla	class .. < ParentClass .. initialize .. end"
+			],
+			[
+				"gam",
+				"GameSystem"
+			],
+			[
+				"in",
+				"info"
+			],
+			[
+				"mo",
+				"MovieSystem"
+			],
+			[
+				"Movi",
+				"MovieSystem"
+			],
+			[
+				"ver",
+				"VERSION"
+			],
+			[
+				"su",
+				"super"
+			],
+			[
+				"Movie",
+				"movie3d"
+			],
+			[
+				"File",
+				"File	File.open(\"..\") { |file| .. }"
+			],
+			[
+				"kn",
+				"Knuckleheads"
+			],
+			[
+				"rec",
+				"received_pledge"
+			],
+			[
+				"foun",
+				"found_treasure"
+			],
+			[
+				"ca",
+				"carbs"
+			],
+			[
+				"fou",
+				"found_treasure"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"pro",
+				"project"
+			],
+			[
+				"Ple",
+				"pledge"
+			],
+			[
+				"player",
+				"player_list"
+			],
+			[
+				"fl",
+				"flops"
+			],
+			[
+				"re",
+				"require_relative"
+			],
+			[
+				"initial_",
+				"initial_health"
+			],
+			[
+				"tar",
+				"target_fund"
+			],
+			[
+				"pla",
+				"Playlist"
+			],
+			[
+				"initial",
+				"initial_health"
+			],
+			[
+				"ini",
+				"initial_rank"
+			],
+			[
+				"sh",
+				"should"
+			],
+			[
+				"initia",
+				"initial_fund"
+			],
+			[
+				"w0",
+				"w00t"
+			],
+			[
+				"bl",
+				"blam"
+			],
+			[
+				"ran",
+				"rank"
+			],
+			[
+				"th",
+				"thumbs_down"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 1335,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/RSpec/RSpec.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: rspe",
+				"Snippet: subject - Rspec subject helper"
+			]
+		],
+		"width": 472.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/rails_studio/flix/config/application.rb",
+		"/C/rails_studio/crowdfund/.gitignore",
+		"/C/rails_studio/crowdfund/Gemfile",
+		"/C/rails_studio/flix/db/seeds.rb",
+		"/C/rails_studio/flix/app/views/movies/show.html.erb",
+		"/C/rails_studio/flix/app/helpers/movies_helper.rb",
+		"/C/rails_studio/flix/app/models/movie.rb",
+		"/C/rails_studio/flix/spec/models/movie_spec.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/exercise-solutions/24-one-to-many-logic/flix/app/views/movies/show.html.erb",
+		"/C/rails_studio/flix/app/views/shared/_errors.html.erb",
+		"/C/rails_studio/flix/app/views/reviews/_form.html.erb",
+		"/C/rails_studio/flix/spec/features/create_review_spec.rb",
+		"/C/rails_studio/flix/app/views/reviews/new.html.erb",
+		"/C/rails_studio/flix/app/controllers/reviews_controller.rb",
+		"/C/rails_studio/flix/config/routes.rb",
+		"/C/rails_studio/flix/app/views/movies/_form.html.erb",
+		"/C/rails_studio/flix/app/controllers/movies_controller.rb",
+		"/C/rails_studio/flix/spec/features/show_movie_spec.rb",
+		"/C/rails_studio/flix/app/views/reviews/index.html.erb",
+		"/C/rails_studio/flix/spec/features/list_reviews_spec.rb",
+		"/C/rails_studio/flix/app/helpers/reviews_helper.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/exercise-solutions/22-one-to-many-nested/flix/app/views/reviews/index.html.erb",
+		"/C/rails_studio/flix/app/models/review.rb",
+		"/C/rails_studio/flix/spec/support/attributes.rb",
+		"/C/rails_studio/flix/spec/models/review_spec.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/exercise-solutions/21-one-to-many-models/flix/db/seeds.rb",
+		"/C/rails_studio/flix/db/test.sqlite3",
+		"/C/rails_studio/flix/db/migrate/20140218220250_create_reviews.rb",
+		"/C/rails_studio/flix/spec/features/delete_movie_spec.rb",
+		"/C/rails_studio/flix/spec/features/create_movie_spec.rb",
+		"/C/rails_studio/flix/spec/features/edit_movie_spec.rb",
+		"/C/rails_studio/flix/app/views/layouts/application.html.erb",
+		"/C/rails_studio/flix/app/controllers/application_controller.rb",
+		"/C/rails_studio/flix/app/assets/stylesheets/movies.css.scss",
+		"/C/rails_studio/flix/app/assets/stylesheets/_colors.scss",
+		"/C/Ruby200/lib/ruby/2.0.0/dl.rb",
+		"/C/rails_studio/flix/spec/features/list_movies_spec.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/redesign/flix/spec/features/list_movies_spec.rb",
+		"/C/rails_studio/flix/app/views/movies/new.html.erb",
+		"/C/rails_studio/flix/app/views/movies/index.html.erb",
+		"/C/rails_studio/flix/app/views/movies/edit.html.erb",
+		"/C/rails_studio/flix/app/views/layouts/_sidebar.html.erb",
+		"/C/rails_studio/flix/app/views/layouts/_header.html.erb",
+		"/C/rails_studio/flix/app/views/layouts/_footer.html.erb",
+		"/C/rails_studio/flix/app/views/layouts/_flashes.html.erb",
+		"/C/rails_studio/flix/app/views/movies/_footer.html.erb",
+		"/C/rails_studio/flix/app/assets/stylesheets/normalize.css",
+		"/C/rails_studio/flix/app/assets/stylesheets/layout.css.scss",
+		"/C/rails_studio/flix/app/assets/stylesheets/forms.css.scss",
+		"/C/rails_studio/flix/app/assets/stylesheets/elements.css.scss",
+		"/C/rails_studio/flix/app/assets/stylesheets/buttons.css.scss",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/exercise-solutions/17-assets/flix/app/views/layouts/_sidebar.html.erb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/exercise-solutions/17-assets/flix/app/assets/stylesheets/layout.css.scss",
+		"/C/rails_studio/flix/spec/features/navigate_movies_spec.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/exercise-solutions/15-migrations-revisited/flix/db/seeds.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/example-app/16-layouts/events/db/seeds.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/exercise-solutions/11-forms-create/flix/app/controllers/movies_controller.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/exercise-solutions/10-forms-edit-1/flix/app/views/movies/edit.html.erb",
+		"/C/rails_studio/flix/config/initializers/date_formats.rb",
+		"/C/rails_studio/flix/.rspec",
+		"/C/rails_studio/flix/Gemfile",
+		"/C/rails_studio/flix/flix.sublime-workspace",
+		"/C/Users/Gabby/Ruby/nokogiri-1.6.1.beta.1.mingw.1-x64-mingw32.gem",
+		"/C/rails_studio/events/app/views/events/edit.html.erb",
+		"/C/rails_studio/events/app/views/events/show.html.erb",
+		"/C/rails_studio/events/app/views/events/index.html.erb",
+		"/C/rails_studio/events/app/controllers/events_controller.rb",
+		"/C/rails_studio/events/config/routes.rb",
+		"/C/rails_studio/events/config/initializers/time_formats.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/example-app/07-show-event/events/app/views/events/show.html.erb",
+		"/C/rails_studio/events/app/models/event.rb",
+		"/C/rails_studio/events/app/helpers/events_helper.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/example-app/06-helpers/events/app/views/events/index.html.erb",
+		"/C/Users/Gabby/furcons.bat",
+		"/C/rails_studio/x paths x",
+		"/C/rails_studio/flix/db/migrate/20140205163225_add_fields_to_movies.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/example-app/05-migrations/events/app/views/events/index.html.erb",
+		"/C/rails_studio/events/db/migrate/20140205151730_add_fields_to_events.rb"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"C:\\rails_studio\\flix"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"  ",
+			"@movie",
+			"  ",
+			"name",
+			"  ",
+			"add.png",
+			"logo",
+			"  ",
+			"#F0F0F0",
+			"#237CBE",
+			"  ",
+			"    ",
+			"	",
+			"  ",
+			"f.",
+			"  ",
+			"		$stdout = StringIO.new",
+			"  ",
+			"   ",
+			"  ",
+			"	",
+			"  ",
+			"Moe",
+			"moe",
+			"100",
+			"Playlist",
+			"..",
+			"Player",
+			"player",
+			"Movie",
+			"movie",
+			"Operations",
+			"knuckleheads",
+			"'",
+			"build",
+			"'"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"	",
+			"e.",
+			"	",
+			"Larry",
+			"larry",
+			"150",
+			"Game",
+			"tab",
+			"Project",
+			"project",
+			"Player",
+			"player",
+			"FundRequest",
+			"chipmunks",
+			"\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Gemfile",
+					"settings":
+					{
+						"buffer_size": 1335,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1335,
+								1335
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 741.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 158.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"show",
+				"spec/features/show_movie_spec.rb"
+			],
+			[
+				"sho",
+				"app/views/movies/show.html.erb"
+			],
+			[
+				"rev",
+				"app/controllers/reviews_controller.rb"
+			],
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"movie",
+				"app/models/movie.rb"
+			],
+			[
+				"revi",
+				"app/models/review.rb"
+			],
+			[
+				"app",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"edit",
+				"spec/features/edit_movie_spec.rb"
+			],
+			[
+				"mo",
+				"app/controllers/movies_controller.rb"
+			],
+			[
+				"movi",
+				"app/controllers/movies_controller.rb"
+			],
+			[
+				"",
+				"spec/features/list_movies_spec.rb"
+			],
+			[
+				"rou",
+				"config/routes.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/rails_studio/crowdfund/crowdfund.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 163.0,
+	"status_bar_visible": true
+}
