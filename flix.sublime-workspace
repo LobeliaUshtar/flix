@@ -254,6 +254,22 @@
 				"buffer_size": 194,
 				"line_ending": "Windows"
 			}
+		},
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 1357,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/environments/production.rb",
+			"settings":
+			{
+				"buffer_size": 3247,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "Packages/RSpec/RSpec.sublime-build",
@@ -292,6 +308,7 @@
 	},
 	"file_history":
 	[
+		"/C/GitHub/furcons/Gemfile",
 		"/C/GitHub/flix/app/views/layouts/_header.html.erb",
 		"/C/GitHub/flix/furcons.bat",
 		"/C/GitHub/flix/crowdfund.bat",
@@ -418,8 +435,7 @@
 		"/C/rails_studio/flix/app/assets/stylesheets/movies.css.scss",
 		"/C/rails_studio/flix/app/assets/stylesheets/_colors.scss",
 		"/C/Ruby200/lib/ruby/2.0.0/dl.rb",
-		"/C/rails_studio/flix/spec/features/list_movies_spec.rb",
-		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/redesign/flix/spec/features/list_movies_spec.rb"
+		"/C/rails_studio/flix/spec/features/list_movies_spec.rb"
 	],
 	"find":
 	{
@@ -598,7 +614,6 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
 				{
@@ -613,13 +628,67 @@
 						"selection":
 						[
 							[
-								194,
-								194
+								124,
+								124
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Gemfile",
+					"settings":
+					{
+						"buffer_size": 1357,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								200,
+								200
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "config/environments/production.rb",
+					"settings":
+					{
+						"buffer_size": 3247,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								924,
+								924
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -765,7 +834,7 @@
 		[
 			[
 				"",
-				"/C/GitHub/events/events.sublime-project"
+				"/C/GitHub/flix/flix.sublime-project"
 			]
 		],
 		"width": 380.0
