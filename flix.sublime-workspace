@@ -248,26 +248,26 @@
 	"buffers":
 	[
 		{
-			"file": ".gitignore",
+			"file": "spec/models/user_spec.rb",
 			"settings":
 			{
-				"buffer_size": 194,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Gemfile",
-			"settings":
-			{
-				"buffer_size": 1357,
+				"buffer_size": 2419,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "config/environments/production.rb",
+			"file": "spec/support/attributes.rb",
 			"settings":
 			{
-				"buffer_size": 3247,
+				"buffer_size": 731,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/user.rb",
+			"settings":
+			{
+				"buffer_size": 254,
 				"line_ending": "Unix"
 			}
 		}
@@ -308,6 +308,11 @@
 	},
 	"file_history":
 	[
+		"/C/GitHub/flix/config/application.rb",
+		"/C/GitHub/flix/Gemfile",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/01-user-accounts-model/events/spec/spec_helper.rb",
+		"/C/GitHub/flix/config/environments/production.rb",
+		"/C/GitHub/flix/.gitignore",
 		"/C/GitHub/furcons/Gemfile",
 		"/C/GitHub/flix/app/views/layouts/_header.html.erb",
 		"/C/GitHub/flix/furcons.bat",
@@ -430,12 +435,7 @@
 		"/C/rails_studio/flix/spec/features/delete_movie_spec.rb",
 		"/C/rails_studio/flix/spec/features/create_movie_spec.rb",
 		"/C/rails_studio/flix/spec/features/edit_movie_spec.rb",
-		"/C/rails_studio/flix/app/views/layouts/application.html.erb",
-		"/C/rails_studio/flix/app/controllers/application_controller.rb",
-		"/C/rails_studio/flix/app/assets/stylesheets/movies.css.scss",
-		"/C/rails_studio/flix/app/assets/stylesheets/_colors.scss",
-		"/C/Ruby200/lib/ruby/2.0.0/dl.rb",
-		"/C/rails_studio/flix/spec/features/list_movies_spec.rb"
+		"/C/rails_studio/flix/app/views/layouts/application.html.erb"
 	],
 	"find":
 	{
@@ -454,6 +454,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"secret",
 			"  ",
 			"left",
 			"  ",
@@ -580,8 +581,7 @@
 			"  ",
 			"add.png",
 			"logo",
-			"  ",
-			"#F0F0F0"
+			"  "
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -614,54 +614,61 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": ".gitignore",
+					"file": "spec/models/user_spec.rb",
 					"settings":
 					{
-						"buffer_size": 194,
+						"buffer_size": 2419,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								124,
-								124
+								2105,
+								2105
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/RSpec/RSpec.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1246.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "Gemfile",
+					"file": "spec/support/attributes.rb",
 					"settings":
 					{
-						"buffer_size": 1357,
+						"buffer_size": 731,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								200,
-								117
+								665,
+								665
+							],
+							[
+								706,
+								706
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -671,25 +678,24 @@
 				},
 				{
 					"buffer": 2,
-					"file": "config/environments/production.rb",
+					"file": "app/models/user.rb",
 					"settings":
 					{
-						"buffer_size": 3247,
+						"buffer_size": 254,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								924,
-								924
+								254,
+								254
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -745,6 +751,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"user",
+				"app/models/user.rb"
+			],
 			[
 				"_head",
 				"app/views/layouts/_header.html.erb"
@@ -835,7 +845,7 @@
 		[
 			[
 				"",
-				"/C/GitHub/crowdfund/crowdfund.sublime-project"
+				"/C/GitHub/furcons/furcons.sublime-project"
 			]
 		],
 		"width": 380.0
