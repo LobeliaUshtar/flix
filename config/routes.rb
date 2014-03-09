@@ -1,8 +1,9 @@
 Flix::Application.routes.draw do
-  resources :users
+	get "signup" => "users#new"
+	resources :users
 
-  root "movies#index"
-  resources :movies do
-    resources :reviews
-  end
+	root "movies#index"
+	resources :movies do
+		resources :reviews
+	end
 end
