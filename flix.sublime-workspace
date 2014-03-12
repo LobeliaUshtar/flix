@@ -292,7 +292,7 @@
 			"file": "app/controllers/sessions_controller.rb",
 			"settings":
 			{
-				"buffer_size": 341,
+				"buffer_size": 353,
 				"line_ending": "Windows",
 				"name": "sessions_controller.rb"
 			}
@@ -301,7 +301,7 @@
 			"file": "app/views/sessions/new.html.erb",
 			"settings":
 			{
-				"buffer_size": 516,
+				"buffer_size": 539,
 				"line_ending": "Windows",
 				"name": "new.html.erb"
 			}
@@ -672,8 +672,8 @@
 						"selection":
 						[
 							[
-								262,
-								262
+								297,
+								292
 							]
 						],
 						"settings":
@@ -772,15 +772,15 @@
 					"file": "app/controllers/sessions_controller.rb",
 					"settings":
 					{
-						"buffer_size": 341,
+						"buffer_size": 353,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								341,
-								341
+								299,
+								299
 							]
 						],
 						"settings":
@@ -800,15 +800,15 @@
 					"file": "app/views/sessions/new.html.erb",
 					"settings":
 					{
-						"buffer_size": 516,
+						"buffer_size": 539,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								516,
-								516
+								167,
+								167
 							]
 						],
 						"settings":
@@ -835,8 +835,8 @@
 						"selection":
 						[
 							[
-								440,
-								457
+								609,
+								609
 							]
 						],
 						"settings":
