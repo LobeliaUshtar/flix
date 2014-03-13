@@ -259,58 +259,40 @@
 			"file": "spec/features/sign_in_spec.rb",
 			"settings":
 			{
-				"buffer_size": 944,
+				"buffer_size": 1190,
 				"line_ending": "Windows",
 				"name": "sign_in_spec.rb"
 			}
 		},
 		{
-			"file": "spec/models/user_spec.rb",
+			"file": "spec/features/create_user_spec.rb",
 			"settings":
 			{
-				"buffer_size": 2859,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "config/routes.rb",
-			"settings":
-			{
-				"buffer_size": 205,
-				"line_ending": "Unix"
+				"buffer_size": 876,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "app/views/layouts/_header.html.erb",
 			"settings":
 			{
-				"buffer_size": 258,
+				"buffer_size": 441,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/controllers/sessions_controller.rb",
+			"file": "app/helpers/application_helper.rb",
 			"settings":
 			{
-				"buffer_size": 353,
-				"line_ending": "Windows",
-				"name": "sessions_controller.rb"
+				"buffer_size": 121,
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/sessions/new.html.erb",
+			"file": "app/controllers/users_controller.rb",
 			"settings":
 			{
-				"buffer_size": 539,
-				"line_ending": "Windows",
-				"name": "new.html.erb"
-			}
-		},
-		{
-			"file": "app/models/user.rb",
-			"settings":
-			{
-				"buffer_size": 609,
+				"buffer_size": 830,
 				"line_ending": "Unix"
 			}
 		}
@@ -351,6 +333,11 @@
 	},
 	"file_history":
 	[
+		"/C/GitHub/flix/app/models/user.rb",
+		"/C/GitHub/flix/app/views/sessions/new.html.erb",
+		"/C/GitHub/flix/app/controllers/sessions_controller.rb",
+		"/C/GitHub/flix/config/routes.rb",
+		"/C/GitHub/flix/spec/models/user_spec.rb",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/exercise-solutions/04-sign-out/flix/app/views/sessions/new.html.erb",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/exercise-solutions/03-sign-in-3/flix/app/views/sessions/new.html.erb",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/exercise-solutions/03-sign-in-2/flix/app/views/sessions/new.html.erb",
@@ -359,7 +346,6 @@
 		"/C/GitHub/flix/app/views/users/index.html.erb",
 		"/C/GitHub/flix/app/views/users/show.html.erb",
 		"/C/GitHub/flix/app/views/users/_form.html.erb",
-		"/C/GitHub/flix/app/models/user.rb",
 		"/C/GitHub/flix/spec/support/attributes.rb",
 		"/C/GitHub/flix/app/helpers/users_helper.rb",
 		"/C/GitHub/flix/spec/features/list_users_spec.rb",
@@ -373,7 +359,6 @@
 		"/C/GitHub/flix/spec/features/edit_user_spec.rb",
 		"/C/GitHub/flix/app/assets/stylesheets/users.css.scss",
 		"/C/GitHub/flix/app/assets/stylesheets/application.css",
-		"/C/GitHub/flix/spec/models/user_spec.rb",
 		"/C/GitHub/flix/spec/controllers/users_controller_spec.rb",
 		"/C/GitHub/flix/config/application.rb",
 		"/C/GitHub/flix/Gemfile",
@@ -475,10 +460,7 @@
 		"/C/rails_studio/x furcons/spec/support/attributes.rb",
 		"/C/rails_studio/crowdfund/Gemfile",
 		"/C/rails_studio/flix/db/seeds.rb",
-		"/C/rails_studio/flix/app/views/movies/show.html.erb",
-		"/C/rails_studio/flix/app/helpers/movies_helper.rb",
-		"/C/rails_studio/flix/app/models/movie.rb",
-		"/C/rails_studio/flix/spec/models/movie_spec.rb"
+		"/C/rails_studio/flix/app/views/movies/show.html.erb"
 	],
 	"find":
 	{
@@ -657,7 +639,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -665,20 +647,47 @@
 					"file": "spec/features/sign_in_spec.rb",
 					"settings":
 					{
-						"buffer_size": 944,
+						"buffer_size": 1190,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								297,
-								292
+								413,
+								413
 							]
 						],
 						"settings":
 						{
 							"auto_name": "sign_in_spec.rb",
+							"syntax": "Packages/RSpec/RSpec.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "spec/features/create_user_spec.rb",
+					"settings":
+					{
+						"buffer_size": 876,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3,
+								3
+							]
+						],
+						"settings":
+						{
 							"syntax": "Packages/RSpec/RSpec.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
@@ -689,46 +698,46 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "spec/models/user_spec.rb",
+					"buffer": 2,
+					"file": "app/views/layouts/_header.html.erb",
 					"settings":
 					{
-						"buffer_size": 2859,
+						"buffer_size": 441,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2390,
-								2390
+								183,
+								257
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/RSpec/RSpec.tmLanguage",
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1458.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "config/routes.rb",
+					"buffer": 3,
+					"file": "app/helpers/application_helper.rb",
 					"settings":
 					{
-						"buffer_size": 205,
+						"buffer_size": 121,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								205,
-								205
+								121,
+								121
 							]
 						],
 						"settings":
@@ -742,111 +751,28 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "app/views/layouts/_header.html.erb",
-					"settings":
-					{
-						"buffer_size": 258,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								258,
-								258
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
 					"buffer": 4,
-					"file": "app/controllers/sessions_controller.rb",
+					"file": "app/controllers/users_controller.rb",
 					"settings":
 					{
-						"buffer_size": 353,
+						"buffer_size": 830,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								299,
-								299
-							]
-						],
-						"settings":
-						{
-							"auto_name": "sessions_controller.rb",
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "app/views/sessions/new.html.erb",
-					"settings":
-					{
-						"buffer_size": 539,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								167,
-								167
-							]
-						],
-						"settings":
-						{
-							"auto_name": "new.html.erb",
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "app/models/user.rb",
-					"settings":
-					{
-						"buffer_size": 609,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								609,
-								609
+								596,
+								596
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"word_wrap": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 8.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -901,7 +827,11 @@
 		[
 			[
 				"user",
-				"app/models/user.rb"
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"create",
+				"spec/features/create_user_spec.rb"
 			],
 			[
 				"header",
@@ -1001,7 +931,7 @@
 		[
 			[
 				"",
-				"/C/GitHub/furcons/furcons.sublime-project"
+				"/C/GitHub/events/events.sublime-project"
 			]
 		],
 		"width": 380.0
