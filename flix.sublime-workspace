@@ -259,39 +259,15 @@
 			"file": "spec/controllers/users_controller_spec.rb",
 			"settings":
 			{
-				"buffer_size": 768,
+				"buffer_size": 1370,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "spec/features/show_user_spec.rb",
+			"file": "spec/features/sign_in_spec.rb",
 			"settings":
 			{
-				"buffer_size": 314,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "spec/features/list_users_spec.rb",
-			"settings":
-			{
-				"buffer_size": 560,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "spec/features/delete_user_spec.rb",
-			"settings":
-			{
-				"buffer_size": 643,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "spec/features/edit_user_spec.rb",
-			"settings":
-			{
-				"buffer_size": 816,
+				"buffer_size": 1483,
 				"line_ending": "Windows"
 			}
 		},
@@ -299,24 +275,32 @@
 			"file": "app/controllers/users_controller.rb",
 			"settings":
 			{
-				"buffer_size": 913,
+				"buffer_size": 1014,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/users/show.html.erb",
+			"settings":
+			{
+				"buffer_size": 572,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "app/controllers/application_controller.rb",
 			"settings":
 			{
-				"buffer_size": 450,
+				"buffer_size": 576,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/helpers/application_helper.rb",
+			"file": "app/controllers/sessions_controller.rb",
 			"settings":
 			{
-				"buffer_size": 29,
-				"line_ending": "Unix"
+				"buffer_size": 514,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -356,20 +340,27 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/05-authorization-2/events/spec/controllers/users_controller_spec.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/exercise-solutions/05-authorization-2/flix/spec/controllers/users_controller_spec.rb",
+		"/C/GitHub/flix/spec/features/delete_user_spec.rb",
+		"/C/GitHub/flix/spec/features/edit_user_spec.rb",
+		"/C/GitHub/flix/app/helpers/application_helper.rb",
+		"/C/GitHub/flix/app/controllers/application_controller.rb",
+		"/C/GitHub/flix/app/controllers/users_controller.rb",
+		"/C/GitHub/flix/spec/features/list_users_spec.rb",
+		"/C/GitHub/flix/spec/features/show_user_spec.rb",
+		"/C/GitHub/flix/spec/controllers/users_controller_spec.rb",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/exercise-solutions/05-authorization-1/flix/spec/features/edit_user_spec.rb",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/exercise-solutions/05-authorization-1/flix/spec/features/delete_user_spec.rb",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/exercise-solutions/05-authorization-1/flix/spec/features/list_users_spec.rb",
 		"/C/GitHub/flix/spec/helpers/users_helper_spec.rb",
 		"/C/GitHub/flix/app/controllers/sessions_controller.rb",
-		"/C/GitHub/flix/app/controllers/users_controller.rb",
 		"/C/GitHub/flix/app/views/layouts/_header.html.erb",
 		"/C/GitHub/flix/spec/support/authentication.rb",
-		"/C/GitHub/flix/spec/features/delete_user_spec.rb",
 		"/C/GitHub/flix/spec/features/sign_in_spec.rb",
 		"/C/GitHub/flix/spec/features/sign_out_spec.rb",
 		"/C/GitHub/flix/app/views/sessions/new.html.erb",
 		"/C/GitHub/flix/config/routes.rb",
-		"/C/GitHub/flix/app/helpers/application_helper.rb",
 		"/C/GitHub/flix/spec/features/create_user_spec.rb",
 		"/C/GitHub/flix/app/models/user.rb",
 		"/C/GitHub/flix/spec/models/user_spec.rb",
@@ -383,14 +374,10 @@
 		"/C/GitHub/flix/app/views/users/_form.html.erb",
 		"/C/GitHub/flix/spec/support/attributes.rb",
 		"/C/GitHub/flix/app/helpers/users_helper.rb",
-		"/C/GitHub/flix/spec/features/list_users_spec.rb",
-		"/C/GitHub/flix/spec/features/show_user_spec.rb",
 		"/C/GitHub/flix/app/views/users/edit.html.erb",
 		"/C/GitHub/flix/app/views/users/new.html.erb",
-		"/C/GitHub/flix/spec/features/edit_user_spec.rb",
 		"/C/GitHub/flix/app/assets/stylesheets/users.css.scss",
 		"/C/GitHub/flix/app/assets/stylesheets/application.css",
-		"/C/GitHub/flix/spec/controllers/users_controller_spec.rb",
 		"/C/GitHub/flix/config/application.rb",
 		"/C/GitHub/flix/Gemfile",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/01-user-accounts-model/events/spec/spec_helper.rb",
@@ -480,10 +467,7 @@
 		"/C/rails_studio/x furcons/spec/features/navigate_furcons_spec.rb",
 		"/C/rails_studio/x furcons/db/migrate/20140210152611_create_furcons.rb",
 		"/C/rails_studio/furcons x/app/controllers/furcons_controller.rb",
-		"/C/rails_studio/furcons x/.rspec",
-		"/C/rails_studio/furcons/config/application.rb",
-		"/C/rails_studio/flix/config/application.rb",
-		"/C/rails_studio/flix/config/routes.rb"
+		"/C/rails_studio/furcons x/.rspec"
 	],
 	"find":
 	{
@@ -632,7 +616,7 @@
 			"  "
 		],
 		"highlight": true,
-		"in_selection": true,
+		"in_selection": false,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
@@ -662,7 +646,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -670,20 +654,21 @@
 					"file": "spec/controllers/users_controller_spec.rb",
 					"settings":
 					{
-						"buffer_size": 768,
+						"buffer_size": 1370,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								768,
-								768
+								923,
+								923
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/RSpec/RSpec.tmLanguage"
+							"syntax": "Packages/RSpec/RSpec.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -693,23 +678,24 @@
 				},
 				{
 					"buffer": 1,
-					"file": "spec/features/show_user_spec.rb",
+					"file": "spec/features/sign_in_spec.rb",
 					"settings":
 					{
-						"buffer_size": 314,
+						"buffer_size": 1483,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								304,
-								264
+								564,
+								564
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/RSpec/RSpec.tmLanguage"
+							"syntax": "Packages/RSpec/RSpec.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -719,49 +705,50 @@
 				},
 				{
 					"buffer": 2,
-					"file": "spec/features/list_users_spec.rb",
+					"file": "app/controllers/users_controller.rb",
 					"settings":
 					{
-						"buffer_size": 560,
+						"buffer_size": 1014,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								409,
-								409
+								490,
+								490
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/RSpec/RSpec.tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 378.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "spec/features/delete_user_spec.rb",
+					"file": "app/views/users/show.html.erb",
 					"settings":
 					{
-						"buffer_size": 643,
+						"buffer_size": 572,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								167,
-								167
+								572,
+								572
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/RSpec/RSpec.tmLanguage",
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -772,45 +759,18 @@
 				},
 				{
 					"buffer": 4,
-					"file": "spec/features/edit_user_spec.rb",
+					"file": "app/controllers/application_controller.rb",
 					"settings":
 					{
-						"buffer_size": 816,
+						"buffer_size": 576,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								677,
-								677
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/RSpec/RSpec.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "app/controllers/users_controller.rb",
-					"settings":
-					{
-						"buffer_size": 913,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								189,
-								189
+								542,
+								542
 							]
 						],
 						"settings":
@@ -825,50 +785,25 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "app/controllers/application_controller.rb",
+					"buffer": 5,
+					"file": "app/controllers/sessions_controller.rb",
 					"settings":
 					{
-						"buffer_size": 450,
+						"buffer_size": 514,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								450,
-								450
+								115,
+								132
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "app/helpers/application_helper.rb",
-					"settings":
-					{
-						"buffer_size": 29,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								25,
-								25
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -925,8 +860,16 @@
 		"selected_items":
 		[
 			[
+				"sess",
+				"app/controllers/sessions_controller.rb"
+			],
+			[
 				"appl",
-				"app/helpers/application_helper.rb"
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"show",
+				"app/views/users/show.html.erb"
 			],
 			[
 				"user",
@@ -999,10 +942,6 @@
 			[
 				"li",
 				"spec/features/list_furcons_spec.rb"
-			],
-			[
-				"show",
-				"spec/features/show_movie_spec.rb"
 			],
 			[
 				"rev",
