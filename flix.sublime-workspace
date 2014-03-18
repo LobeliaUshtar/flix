@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"be",
+				"before_action"
+			],
+			[
 				"cu",
 				"current_user_admin"
 			],
@@ -268,18 +272,99 @@
 	"buffers":
 	[
 		{
-			"file": "app/controllers/movies_controller.rb",
+			"file": "spec/models/user_spec.rb",
 			"settings":
 			{
-				"buffer_size": 989,
+				"buffer_size": 3329,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/controllers/application_controller.rb",
+			"file": "db/migrate/20140318145122_make_reviews_a_join_table.rb",
 			"settings":
 			{
-				"buffer_size": 799,
+				"buffer_size": 273,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/review.rb",
+			"settings":
+			{
+				"buffer_size": 235,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/user.rb",
+			"settings":
+			{
+				"buffer_size": 649,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "spec/models/review_spec.rb",
+			"settings":
+			{
+				"buffer_size": 1193,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "spec/support/attributes.rb",
+			"settings":
+			{
+				"buffer_size": 722,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "spec/controllers/reviews_controller_spec.rb",
+			"settings":
+			{
+				"buffer_size": 567,
+				"line_ending": "Windows",
+				"name": "reviews_controller_spec.rb"
+			}
+		},
+		{
+			"file": "spec/features/create_review_spec.rb",
+			"settings":
+			{
+				"buffer_size": 974,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "spec/features/list_reviews_spec.rb",
+			"settings":
+			{
+				"buffer_size": 749,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/reviews_controller.rb",
+			"settings":
+			{
+				"buffer_size": 780,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/reviews/new.html.erb",
+			"settings":
+			{
+				"buffer_size": 688,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/reviews/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 683,
 				"line_ending": "Unix"
 			}
 		},
@@ -287,15 +372,7 @@
 			"file": "app/views/movies/show.html.erb",
 			"settings":
 			{
-				"buffer_size": 1452,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/layouts/_sidebar.html.erb",
-			"settings":
-			{
-				"buffer_size": 306,
+				"buffer_size": 1531,
 				"line_ending": "Unix"
 			}
 		},
@@ -303,7 +380,39 @@
 			"file": "app/controllers/users_controller.rb",
 			"settings":
 			{
-				"buffer_size": 1004,
+				"buffer_size": 1031,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/users/show.html.erb",
+			"settings":
+			{
+				"buffer_size": 986,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/helpers/users_helper.rb",
+			"settings":
+			{
+				"buffer_size": 196,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/stylesheets/movies.css.scss",
+			"settings":
+			{
+				"buffer_size": 3246,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "spec/features/delete_review_spec.rb",
+			"settings":
+			{
+				"buffer_size": 697,
 				"line_ending": "Unix"
 			}
 		}
@@ -344,16 +453,25 @@
 	},
 	"file_history":
 	[
+		"/C/GitHub/events/spec/features/delete_registration_spec.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/exercise-solutions/07-many-to-many-2/flix/app/views/users/show.html.erb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/exercise-solutions/07-many-to-many-2/flix/spec/features/create_review_spec.rb",
+		"/C/GitHub/flix/app/controllers/reviews_controller.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/exercise-solutions/07-many-to-many-2/flix/spec/models/review_spec.rb",
+		"/C/GitHub/flix/app/models/movie.rb",
+		"/C/GitHub/flix/db/seeds.rb",
+		"/C/GitHub/flix/app/controllers/users_controller.rb",
+		"/C/GitHub/flix/app/views/layouts/_sidebar.html.erb",
+		"/C/GitHub/flix/app/views/movies/show.html.erb",
+		"/C/GitHub/flix/app/controllers/application_controller.rb",
+		"/C/GitHub/flix/app/controllers/movies_controller.rb",
 		"/C/GitHub/flix/spec/features/delete_movie_spec.rb",
 		"/C/GitHub/flix/spec/features/edit_movie_spec.rb",
 		"/C/GitHub/flix/spec/features/create_movie_spec.rb",
 		"/C/GitHub/flix/db/migrate/20140316234703_add_admin_to_users.rb",
-		"/C/GitHub/flix/db/seeds.rb",
 		"/C/GitHub/flix/spec/controllers/movies_controller_spec.rb",
 		"/C/GitHub/flix/app/controllers/sessions_controller.rb",
-		"/C/GitHub/flix/app/controllers/application_controller.rb",
 		"/C/GitHub/flix/app/views/users/show.html.erb",
-		"/C/GitHub/flix/app/controllers/users_controller.rb",
 		"/C/GitHub/flix/spec/features/sign_in_spec.rb",
 		"/C/GitHub/flix/spec/controllers/users_controller_spec.rb",
 		"/C/GitHub/flix/app/models/user.rb",
@@ -462,16 +580,7 @@
 		"/C/rails_studio/x furcons/spec/features/delete_furcon_spec.rb",
 		"/C/rails_studio/furcons/spec/features/navigate_furcons_spec.rb",
 		"/C/rails_studio/x furcons/spec/features/create_furcon_spec.rb",
-		"/C/rails_studio/x furcons/app/views/furcons/new.html.erb",
-		"/C/rails_studio/x furcons/app/views/furcons/edit.html.erb",
-		"/C/rails_studio/x furcons/spec/features/edit_furcon_spec.rb",
-		"/C/rails_studio/furcons/config/initializers/date_formats.rb",
-		"/C/rails_studio/x furcons/spec/features/show_furcon_spec.rb",
-		"/C/rails_studio/x furcons/config/routes.rb",
-		"/C/rails_studio/furcons/db/schema.rb",
-		"/C/rails_studio/x furcons/db/seeds.rb",
-		"/C/rails_studio/x furcons/spec/models/furcon_spec.rb",
-		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/exercise-solutions/09-test-first-5/flix/app/views/movies/show.html.erb"
+		"/C/rails_studio/x furcons/app/views/furcons/new.html.erb"
 	],
 	"find":
 	{
@@ -482,6 +591,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"C:\\GitHub\\flix",
 			"C:\\rails_studio\\flix"
 		]
 	},
@@ -490,6 +600,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"  ",
+			"profile_image_for",
 			"  ",
 			"email",
 			"  ",
@@ -615,8 +727,6 @@
 			"Movie",
 			"  ",
 			"movies",
-			"  ",
-			"movies",
 			"  "
 		],
 		"highlight": true,
@@ -650,28 +760,136 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 17,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/controllers/movies_controller.rb",
+					"file": "spec/models/user_spec.rb",
 					"settings":
 					{
-						"buffer_size": 989,
+						"buffer_size": 3329,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								304,
-								304
+								2386,
+								2386
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/RSpec/RSpec.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "db/migrate/20140318145122_make_reviews_a_join_table.rb",
+					"settings":
+					{
+						"buffer_size": 273,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								273,
+								273
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/models/review.rb",
+					"settings":
+					{
+						"buffer_size": 235,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								235,
+								235
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/models/user.rb",
+					"settings":
+					{
+						"buffer_size": 649,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								649,
+								649
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "spec/models/review_spec.rb",
+					"settings":
+					{
+						"buffer_size": 1193,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								250,
+								250
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/RSpec/RSpec.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": false,
 							"word_wrap": true
@@ -683,19 +901,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "app/controllers/application_controller.rb",
+					"buffer": 5,
+					"file": "spec/support/attributes.rb",
 					"settings":
 					{
-						"buffer_size": 799,
+						"buffer_size": 722,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								757,
-								757
+								718,
+								718
 							]
 						],
 						"settings":
@@ -704,86 +922,334 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 332.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 6,
+					"file": "spec/controllers/reviews_controller_spec.rb",
+					"settings":
+					{
+						"buffer_size": 567,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								186,
+								186
+							]
+						],
+						"settings":
+						{
+							"auto_name": "reviews_controller_spec.rb",
+							"syntax": "Packages/RSpec/RSpec.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "spec/features/create_review_spec.rb",
+					"settings":
+					{
+						"buffer_size": 974,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								716,
+								716
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/RSpec/RSpec.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "spec/features/list_reviews_spec.rb",
+					"settings":
+					{
+						"buffer_size": 749,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								749,
+								749
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/RSpec/RSpec.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/controllers/reviews_controller.rb",
+					"settings":
+					{
+						"buffer_size": 780,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								119,
+								119
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/views/reviews/new.html.erb",
+					"settings":
+					{
+						"buffer_size": 688,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								208,
+								208
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "app/views/reviews/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 683,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								683,
+								683
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
 					"file": "app/views/movies/show.html.erb",
 					"settings":
 					{
-						"buffer_size": 1452,
+						"buffer_size": 1531,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								160,
-								160
+								719,
+								719
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 702.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "app/views/layouts/_sidebar.html.erb",
-					"settings":
-					{
-						"buffer_size": 306,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								20,
-								20
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
+					"buffer": 13,
 					"file": "app/controllers/users_controller.rb",
 					"settings":
 					{
-						"buffer_size": 1004,
+						"buffer_size": 1031,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								220,
-								220
+								366,
+								366
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "app/views/users/show.html.erb",
+					"settings":
+					{
+						"buffer_size": 986,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								257,
+								257
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "app/helpers/users_helper.rb",
+					"settings":
+					{
+						"buffer_size": 196,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								60,
+								60
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "app/assets/stylesheets/movies.css.scss",
+					"settings":
+					{
+						"buffer_size": 3246,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2407,
+								2307
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2376.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "spec/features/delete_review_spec.rb",
+					"settings":
+					{
+						"buffer_size": 697,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								697,
+								697
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/RSpec/RSpec.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -841,16 +1307,56 @@
 		"selected_items":
 		[
 			[
+				"show",
+				"app/views/users/show.html.erb"
+			],
+			[
 				"user",
 				"app/controllers/users_controller.rb"
 			],
 			[
-				"side",
-				"app/views/layouts/_sidebar.html.erb"
+				"inde",
+				"app/views/reviews/index.html.erb"
 			],
 			[
-				"show",
-				"app/views/movies/show.html.erb"
+				"new",
+				"app/views/reviews/new.html.erb"
+			],
+			[
+				"revie",
+				"app/controllers/reviews_controller.rb"
+			],
+			[
+				"list",
+				"spec/features/list_reviews_spec.rb"
+			],
+			[
+				"cre",
+				"spec/features/create_review_spec.rb"
+			],
+			[
+				"reviews",
+				"app/controllers/reviews_controller.rb"
+			],
+			[
+				"attr",
+				"spec/support/attributes.rb"
+			],
+			[
+				"revi",
+				"spec/models/review_spec.rb"
+			],
+			[
+				"movie",
+				"app/models/movie.rb"
+			],
+			[
+				"usr",
+				"spec/models/user_spec.rb"
+			],
+			[
+				"side",
+				"app/views/layouts/_sidebar.html.erb"
 			],
 			[
 				"app",
@@ -869,20 +1375,12 @@
 				"app/controllers/application_controller.rb"
 			],
 			[
-				"list",
-				"spec/features/list_users_spec.rb"
-			],
-			[
 				"sho",
 				"spec/features/show_user_spec.rb"
 			],
 			[
 				"delete",
 				"spec/features/delete_user_spec.rb"
-			],
-			[
-				"new",
-				"app/views/sessions/new.html.erb"
 			],
 			[
 				"session",
@@ -941,14 +1439,6 @@
 				"app/controllers/reviews_controller.rb"
 			],
 			[
-				"movie",
-				"app/models/movie.rb"
-			],
-			[
-				"revi",
-				"app/models/review.rb"
-			],
-			[
 				"edit",
 				"spec/features/edit_movie_spec.rb"
 			],
@@ -978,7 +1468,7 @@
 		[
 			[
 				"",
-				"/C/GitHub/furcons/furcons.sublime-project"
+				"/C/GitHub/events/events.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -987,6 +1477,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 102.0,
+	"side_bar_width": 163.0,
 	"status_bar_visible": true
 }

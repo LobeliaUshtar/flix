@@ -1,37 +1,41 @@
 require 'spec_helper'
 
 describe "Creating a new review" do
-  it "saves the review and shows the review on the movie's detail page" do
-    movie = Movie.create(movie_attributes)
+	before do
+		@user = User.create!(user_attributes)
+		sign_in(@user)
+	end
 
-    visit movie_url(movie)
+	it "saves the review and shows the review on the movie's detail page" do
+		movie = Movie.create(movie_attributes)
 
-    click_link 'Write Review'
+		visit movie_url(movie)
 
-    expect(current_path).to eq(new_movie_review_path(movie))
+		click_link 'Write Review'
 
-    fill_in "Name", with: "Roger Ebert"
-    #select 3, :from => "review_stars"
-    choose "review_stars_3"
-    fill_in "Comment", with: "I laughed, I cried, I spilled my popcorn!"
+		expect(current_path).to eq(new_movie_review_path(movie))
 
-    click_button 'Post Review'
+		choose "review_stars_3"
+		fill_in "Comment", with: "I laughed, I cried, I spilled my popcorn!"
 
-    expect(current_path).to eq(movie_reviews_path(movie))
+		click_button 'Post Review'
 
-    expect(page).to have_text("Thanks for your review!")
-    expect(page).to have_text("I laughed, I cried, I spilled my popcorn!")
-  end
+		expect(current_path).to eq(movie_reviews_path(movie))
 
-  it "does not save the review if it's invalid" do
-    movie = Movie.create(movie_attributes)
+		expect(page).to have_text("Thanks for your review!")
+		expect(page).to have_text("I laughed, I cried, I spilled my popcorn!")
+		expect(page).to have_text(@user.name)
+	end
 
-    visit new_movie_review_url(movie)
+	it "does not save the review if it's invalid" do
+		movie = Movie.create(movie_attributes)
 
-    expect {
-      click_button 'Post Review'
-    }.not_to change(Review, :count)
+		visit new_movie_review_url(movie)
 
-    expect(page).to have_text('error')
-  end
+		expect {
+			click_button 'Post Review'
+		}.not_to change(Review, :count)
+
+		expect(page).to have_text('error')
+	end
 end
