@@ -134,19 +134,41 @@ User.create!([
 		password_confirmation: "secret"
 	}
 ])
+
 roger = User.find_by(name: "Roger Ebert")
 gene = User.find_by(name: "Gene Siskel")
 peter = User.find_by(name: "Peter Travers")
 elvis = User.find_by(name: "Elvis Mitchell")
 
+action = Genre.create!(name: "Action")
+comedy = Genre.create!(name: "Comedy")
+drama = Genre.create!(name: "Drama")
+romance = Genre.create!(name: "Romance")
+thriller = Genre.create!(name: "Thriller")
+fantasy = Genre.create!(name: "Fantasy")
+documentary = Genre.create!(name: "Documentary")
+adventure = Genre.create!(name: "Adventure")
+animation = Genre.create!(name: "Animation")
+scifi = Genre.create!(name: "Sci-Fi")
+
 movie = Movie.find_by(title: 'Iron Man')
 movie.reviews.create!(user: roger, stars: 3, comment: "I laughed, I cried, I spilled my popcorn!")
 movie.reviews.create!(user: gene, stars: 5, comment: "I'm a better reviewer than he is.")
 movie.reviews.create!(user: peter, stars: 4, comment: "It's been years since a movie superhero was this fierce and this funny.")
-movie = Movie.find_by(title: 'Superman')
-movie.reviews.create!(user: elvis, stars: 5, comment: "It's a bird, it's a plane, it's a blockbuster!")
-
-movie = Movie.find_by(title: 'Iron Man')
 movie.fans << roger
 movie.fans << gene
 movie.fans << elvis
+movie.genres = [action, adventure, scifi]
+
+movie = Movie.find_by(title: 'Superman')
+movie.reviews.create!(user: elvis, stars: 5, comment: "It's a bird, it's a plane, it's a blockbuster!")
+movie.genres = [action, fantasy, scifi]
+
+movie = Movie.find_by(title: 'Spider-Man')
+movie.genres = [action, fantasy]
+
+movie = Movie.find_by(title: 'Batman')
+movie.genres = [action, thriller]
+
+movie = Movie.find_by(title: 'Catwoman')
+movie.genres = [action, fantasy]
