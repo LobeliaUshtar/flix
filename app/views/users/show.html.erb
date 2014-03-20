@@ -1,3 +1,5 @@
+<% title(@user.name) %>
+
 <article id="user">
 	<header>
 		<%= profile_image_for(@user) %>
@@ -26,17 +28,6 @@
 		</ol>
 	<% end %>
 
-	<% if @favorite_movies.any? %>
-		<h3>Favorite Movies</h3>
-		<ul>
-		 <% @favorite_movies.each do |movie| %>
-			 <li>
-				 <%= link_to movie.title, movie %>
-			 </li>
-		 <% end %>
-		</ul>
-	<% end %>
-
 </article>
 
 <footer>
@@ -47,3 +38,7 @@
 	<% end %>
 	</nav>
 </footer>
+
+<% content_for :side do %>
+	<%= render 'user_sidebar_extras' %>
+<% end %>

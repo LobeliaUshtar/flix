@@ -1,3 +1,5 @@
+<% title(@movie.title) %>
+
 <article id="movie" class="movie">
 	<header>
 		<%= image_for(@movie) %>
@@ -33,13 +35,6 @@
 		<%= format_average_stars(@movie) %>
 	</p>
 
-	<h3>Genres</h3>
-	<ul>
-		<% @genres.each do |genre| %>
-			<li><%= genre.name %></li>
-		<% end %>
-	</ul>
-
 	<p>
 		<%= pluralize(@fans.size, 'fan') %> 
 	</p>
@@ -52,24 +47,12 @@
 		<% end %>		
 	<% end %>
 
-	<% if @fans.any? %>
-		<h3>Fans</h3>
-		<ul>
-			<% @fans.each do |user| %>
-				<li>
-<!-- 					<%= profile_image_for(user, size: 35) %> -->
-					<%= link_to user.name, user %>
-				</li>
-			<% end %>
-		</ul>
-	<% end %>
-
 	<% if @movie.reviews.any? %>
 		<h3>Reviews</h3>
 		<ol id="reviews">
 			<% @movie.recent_reviews.each do |review| %>
 				<li>
-<!-- 					<%= profile_image_for(review.user, size: 35) %> -->
+					<!-- <%= profile_image_for(review.user, size: 35) %> -->
 					<span class="review"><%= pluralize(review.stars, 'star') %></span>
 					<span class="user">by <%= link_to review.user.name, review.user %></span>
 					<span class="date">
@@ -96,3 +79,7 @@
 		</nav>
 	</footer>
 </article>
+
+<% content_for :side do %>
+	<%= render 'movie_sidebar_extras' %>
+<% end %>
