@@ -77,7 +77,7 @@ Movie.create!([
 		duration: "101 min",
 		director: "Jean-Christophe 'Pitof' Comar",
 		rating: "PG-13",
-		total_gross: 40200000.00
+		total_gross: 40_200_000
 	},
 	{
 		title: 'Batman vs. Godzilla',
@@ -88,11 +88,11 @@ Movie.create!([
 		}.squish,
 		image_file_name: 'batman-vs-godzilla.jpg',
 		cast: 'Bruce Wayne, Gojira',
-		released_on: 10.days.from_now,
+		released_on: 370.days.from_now,
 		duration: '211 min',
 		director: 'Ishiro Honda',
 		rating: 'PG-13',
-		total_gross: 387_623_910
+		total_gross: 0
 	}
 ])
 

@@ -22,17 +22,20 @@ class Movie < ActiveRecord::Base
 
 	scope :released, -> { where("released_on <= ?", Time.now).order(released_on: :desc) }
 	scope :hits, -> { released.where('total_gross >= 300000000').order(total_gross: :desc) }
-	scope :flops, -> { released.where('total_gross < 10000000').order(total_gross: :asc) }
+	scope :flops, -> { released.where('total_gross < 50000000').order(total_gross: :asc) }
 	scope :upcoming, -> { where("released_on > ?", Time.now).order(released_on: :asc) }
 	scope :rated, ->(rating) { released.where(rating: rating) }
 	scope :recent, ->(max=5) { released.limit(max) }
+	scope :grossed_less_than, ->(amount) { released.where('total_gross < ?', amount) }
+	scope :grossed_greater_than, ->(amount) { released.where('total_gross > ?', amount) }
+	scope :everything, -> { order(released_on: :asc) }
 	
 	def self.recently_added
 		order('created_at desc').limit(3)
 	end
 	
 	def flop?
-		total_gross.blank? || total_gross < 50000000
+		total_gross.blank? || (total_gross < 50000000 && total_gross > 0)
 	end
 	
 	def average_stars
@@ -42,4 +45,5 @@ class Movie < ActiveRecord::Base
 	def recent_reviews
 		reviews.order('created_at desc').limit(2)
 	end
+
 end
