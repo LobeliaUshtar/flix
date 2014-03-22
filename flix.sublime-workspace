@@ -291,7 +291,7 @@
 			"file": "spec/models/movie_spec.rb",
 			"settings":
 			{
-				"buffer_size": 7638,
+				"buffer_size": 7788,
 				"line_ending": "Unix"
 			}
 		},
@@ -324,6 +324,22 @@
 			"settings":
 			{
 				"buffer_size": 529,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/_sidebar.html.erb",
+			"settings":
+			{
+				"buffer_size": 782,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/helpers/application_helper.rb",
+			"settings":
+			{
+				"buffer_size": 376,
 				"line_ending": "Unix"
 			}
 		}
@@ -364,10 +380,10 @@
 	},
 	"file_history":
 	[
+		"/C/GitHub/flix/app/views/layouts/_sidebar.html.erb",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/exercise-solutions/11-scopes/flix/spec/models/movie_spec.rb",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/exercise-solutions/13-friendly-urls/flix/app/models/movie.rb",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/exercise-solutions/13-friendly-urls/flix/spec/models/movie_spec.rb",
-		"/C/GitHub/flix/app/views/layouts/_sidebar.html.erb",
 		"/C/GitHub/flix/app/views/users/show.html.erb",
 		"/C/GitHub/flix/db/seeds.rb",
 		"/C/GitHub/flix/app/helpers/application_helper.rb",
@@ -672,7 +688,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 7,
 			"sheets":
 			[
 				{
@@ -707,15 +723,15 @@
 					"file": "spec/models/movie_spec.rb",
 					"settings":
 					{
-						"buffer_size": 7638,
+						"buffer_size": 7788,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4167,
-								4167
+								7788,
+								7788
 							]
 						],
 						"settings":
@@ -724,7 +740,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2484.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -741,8 +757,8 @@
 						"selection":
 						[
 							[
-								1558,
-								1558
+								1196,
+								1196
 							]
 						],
 						"settings":
@@ -751,7 +767,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 324.0,
+						"translation.y": 162.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -823,8 +839,62 @@
 						"selection":
 						[
 							[
-								502,
-								502
+								209,
+								209
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/views/layouts/_sidebar.html.erb",
+					"settings":
+					{
+						"buffer_size": 782,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/helpers/application_helper.rb",
+					"settings":
+					{
+						"buffer_size": 376,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -887,16 +957,20 @@
 		"selected_items":
 		[
 			[
+				"side",
+				"app/views/layouts/_sidebar.html.erb"
+			],
+			[
+				"sideb",
+				"app/views/layouts/_sidebar.html.erb"
+			],
+			[
 				"fav",
 				"app/controllers/favorites_controller.rb"
 			],
 			[
 				"re",
 				"app/controllers/reviews_controller.rb"
-			],
-			[
-				"side",
-				"app/views/layouts/_sidebar.html.erb"
 			],
 			[
 				"sho",
