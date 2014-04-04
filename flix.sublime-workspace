@@ -279,70 +279,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "spec/features/show_movie_spec.rb",
-			"settings":
-			{
-				"buffer_size": 1714,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "spec/models/movie_spec.rb",
-			"settings":
-			{
-				"buffer_size": 7788,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/models/movie.rb",
-			"settings":
-			{
-				"buffer_size": 1863,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/controllers/movies_controller.rb",
-			"settings":
-			{
-				"buffer_size": 1292,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/controllers/reviews_controller.rb",
-			"settings":
-			{
-				"buffer_size": 790,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/controllers/favorites_controller.rb",
-			"settings":
-			{
-				"buffer_size": 529,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/layouts/_sidebar.html.erb",
-			"settings":
-			{
-				"buffer_size": 782,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/helpers/application_helper.rb",
-			"settings":
-			{
-				"buffer_size": 376,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "Packages/RSpec/RSpec.sublime-build",
 	"command_palette":
@@ -380,46 +316,59 @@
 	},
 	"file_history":
 	[
-		"/C/GitHub/flix/app/views/layouts/_sidebar.html.erb",
-		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/exercise-solutions/11-scopes/flix/spec/models/movie_spec.rb",
-		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/exercise-solutions/13-friendly-urls/flix/app/models/movie.rb",
-		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/exercise-solutions/13-friendly-urls/flix/spec/models/movie_spec.rb",
-		"/C/GitHub/flix/app/views/users/show.html.erb",
-		"/C/GitHub/flix/db/seeds.rb",
-		"/C/GitHub/flix/app/helpers/application_helper.rb",
-		"/C/GitHub/flix/app/assets/stylesheets/layout.css.scss",
-		"/C/GitHub/flix/config/routes.rb",
-		"/C/GitHub/flix/app/controllers/movies_controller.rb",
 		"/C/GitHub/flix/app/models/movie.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/exercise-solutions/13-friendly-urls/flix/app/views/movies/show.html.erb",
+		"/C/GitHub/flix/app/views/movies/show.html.erb",
+		"/C/GitHub/flix/spec/support/attributes.rb",
+		"/C/GitHub/flix/spec/features/delete_review_spec.rb",
+		"/C/GitHub/flix/Gemfile",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/exercise-solutions/13-friendly-urls/flix/spec/support/attributes.rb",
+		"/C/DevKit/config.yml",
+		"/C/GitHub/flix/spec/controllers/movies_controller_spec.rb",
+		"/C/GitHub/flix/db/seeds.rb",
+		"/C/GitHub/flix/app/helpers/movies_helper.rb",
+		"/C/GitHub/flix/app/views/movies/_form.html.erb",
+		"/C/GitHub/flix/spec/controllers/favorites_controller_spec.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/exercise-solutions/13-friendly-urls/flix/spec/controllers/favorites_controller_spec.rb",
+		"/C/GitHub/flix/app/controllers/movies_controller.rb",
+		"/C/GitHub/flix/db/migrate/20140403145919_add_extra_image_fields_to_movies.rb",
+		"/C/GitHub/flix/spec/models/movie_spec.rb",
+		"/C/GitHub/flix/spec/features/show_movie_spec.rb",
+		"/C/GitHub/flix/spec/features/list_movies_spec.rb",
+		"/C/GitHub/flix/spec/features/create_movie_spec.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/exercise-solutions/13-friendly-urls/flix/app/controllers/movies_controller.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/exercise-solutions/13-friendly-urls/flix/spec/controllers/movies_controller_spec.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/exercise-solutions/13-friendly-urls/flix/spec/models/movie_spec.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/exercise-solutions/11-scopes/flix/spec/models/movie_spec.rb",
+		"/C/GitHub/flix/app/assets/stylesheets/layout.css.scss",
+		"/C/GitHub/flix/app/helpers/application_helper.rb",
+		"/C/GitHub/flix/app/views/layouts/_sidebar.html.erb",
+		"/C/GitHub/flix/app/controllers/favorites_controller.rb",
+		"/C/GitHub/flix/app/controllers/reviews_controller.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/exercise-solutions/13-friendly-urls/flix/app/models/movie.rb",
+		"/C/GitHub/flix/app/views/users/show.html.erb",
+		"/C/GitHub/flix/config/routes.rb",
 		"/C/GitHub/flix/spec/features/navigate_movies_spec.rb",
 		"/C/GitHub/flix/spec/features/filter_movies_spec.rb",
-		"/C/GitHub/flix/app/helpers/movies_helper.rb",
 		"/C/GitHub/flix/app/helpers/nav_link_to.rb",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/exercise-solutions/12-custom-routes/flix/app/assets/stylesheets/layout.css.scss",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/exercise-solutions/12-custom-routes/flix/app/assets/stylesheets/buttons.css.scss",
 		"/C/GitHub/flix/app/controllers/users_controller.rb",
 		"/C/GitHub/flix/app/models/user.rb",
-		"/C/GitHub/flix/spec/models/movie_spec.rb",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/11-scopes/events/spec/models/event_spec.rb",
 		"/C/GitHub/flix/app/views/layouts/application.html.erb",
 		"/C/GitHub/flix/app/views/users/_user_sidebar_extras.html.erb",
 		"/C/GitHub/flix/app/views/movies/_movie_sidebar_extras.html.erb",
-		"/C/GitHub/flix/app/views/movies/show.html.erb",
 		"/C/GitHub/flix/spec/features/show_user_spec.rb",
-		"/C/GitHub/flix/spec/features/show_movie_spec.rb",
 		"/C/GitHub/flix/app/views/movies/edit.html.erb",
-		"/C/GitHub/flix/app/views/movies/_form.html.erb",
 		"/C/GitHub/flix/app/models/characterization.rb",
 		"/C/GitHub/flix/app/models/genre.rb",
-		"/C/GitHub/flix/spec/features/create_movie_spec.rb",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/exercise-solutions/09-checkboxes/flix/app/views/movies/show.html.erb",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/exercise-solutions/09-checkboxes/flix/db/seeds.rb",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/exercise-solutions/09-checkboxes/flix/spec/features/create_movie_spec.rb",
 		"/C/GitHub/flix/app/assets/stylesheets/buttons.css.scss",
-		"/C/GitHub/flix/app/controllers/favorites_controller.rb",
 		"/C/GitHub/flix/spec/features/unfavoriting_a_movie_spec.rb",
 		"/C/GitHub/flix/spec/features/favoriting_a_movie_spec.rb",
-		"/C/GitHub/flix/spec/controllers/favorites_controller_spec.rb",
 		"/C/GitHub/flix/app/models/favorite.rb",
 		"/C/GitHub/flix/spec/models/user_spec.rb",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/exercise-solutions/08-through-1/flix/app/views/users/show.html.erb",
@@ -429,16 +378,13 @@
 		"/C/GitHub/flix/db/migrate/20140318145122_make_reviews_a_join_table.rb",
 		"/C/GitHub/flix/app/models/review.rb",
 		"/C/GitHub/flix/spec/models/review_spec.rb",
-		"/C/GitHub/flix/spec/support/attributes.rb",
 		"/C/GitHub/flix/spec/controllers/reviews_controller_spec.rb",
 		"/C/GitHub/flix/spec/features/create_review_spec.rb",
 		"/C/GitHub/flix/spec/features/list_reviews_spec.rb",
-		"/C/GitHub/flix/app/controllers/reviews_controller.rb",
 		"/C/GitHub/flix/app/views/reviews/new.html.erb",
 		"/C/GitHub/flix/app/views/reviews/index.html.erb",
 		"/C/GitHub/flix/app/helpers/users_helper.rb",
 		"/C/GitHub/flix/app/assets/stylesheets/movies.css.scss",
-		"/C/GitHub/flix/spec/features/delete_review_spec.rb",
 		"/C/GitHub/events/spec/features/delete_registration_spec.rb",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/exercise-solutions/07-many-to-many-2/flix/app/views/users/show.html.erb",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/exercise-solutions/07-many-to-many-2/flix/spec/features/create_review_spec.rb",
@@ -447,7 +393,6 @@
 		"/C/GitHub/flix/spec/features/delete_movie_spec.rb",
 		"/C/GitHub/flix/spec/features/edit_movie_spec.rb",
 		"/C/GitHub/flix/db/migrate/20140316234703_add_admin_to_users.rb",
-		"/C/GitHub/flix/spec/controllers/movies_controller_spec.rb",
 		"/C/GitHub/flix/app/controllers/sessions_controller.rb",
 		"/C/GitHub/flix/spec/features/sign_in_spec.rb",
 		"/C/GitHub/flix/spec/controllers/users_controller_spec.rb",
@@ -477,7 +422,6 @@
 		"/C/GitHub/flix/app/assets/stylesheets/users.css.scss",
 		"/C/GitHub/flix/app/assets/stylesheets/application.css",
 		"/C/GitHub/flix/config/application.rb",
-		"/C/GitHub/flix/Gemfile",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/01-user-accounts-model/events/spec/spec_helper.rb",
 		"/C/GitHub/flix/.gitignore",
 		"/C/GitHub/furcons/Gemfile",
@@ -499,15 +443,7 @@
 		"/C/rails_studio/furcons/Gemfile",
 		"/C/rails_studio/furcons/.rspec",
 		"/C/rails_studio/furcons/.gitignore",
-		"/C/Users/Gabby/.ssh/github_rsa.pub",
-		"/C/Users/Gabby/.ssh/id_rsa.pub",
-		"/C/rails_studio/furcons/bin/rake",
-		"/C/rails_studio/furcons/bin/rails",
-		"/C/rails_studio/furcons/bin/bundle",
-		"/C/rails_studio/furcons/config/database.yml",
-		"/C/rails_studio/furcons/app/controllers/memberships_controller.rb",
-		"/C/rails_studio/furcons/spec/features/create_membership_spec.rb",
-		"/C/rails_studio/furcons/app/views/memberships/edit.html.erb"
+		"/C/Users/Gabby/.ssh/github_rsa.pub"
 	],
 	"find":
 	{
@@ -515,9 +451,10 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
+			"C:\\GitHub\\flix",
 			"C:\\GitHub\\flix,C:\\Users\\Gabby\\Ruby\\The Pragmatic Studio\\Ruby on Rails II\\pragstudio-rails-ii-code\\exercise-solutions\\12-custom-routes\\flix\\app\\assets\\stylesheets",
 			"C:\\GitHub\\flix",
 			"C:\\rails_studio\\flix"
@@ -528,6 +465,10 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"name",
+			"recent_reviews",
+			"user",
+			"name",
 			"  ",
 			"active",
 			"  ",
@@ -651,11 +592,7 @@
 			"date",
 			"  ",
 			"Furcon ",
-			"Furcon",
-			"  ",
-			"movie",
-			"Movie",
-			"movies"
+			"Furcon"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -688,226 +625,8 @@
 	"groups":
 	[
 		{
-			"selected": 7,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "spec/features/show_movie_spec.rb",
-					"settings":
-					{
-						"buffer_size": 1714,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1705,
-								1705
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/RSpec/RSpec.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "spec/models/movie_spec.rb",
-					"settings":
-					{
-						"buffer_size": 7788,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7788,
-								7788
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/RSpec/RSpec.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/models/movie.rb",
-					"settings":
-					{
-						"buffer_size": 1863,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1196,
-								1196
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 162.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/controllers/movies_controller.rb",
-					"settings":
-					{
-						"buffer_size": 1292,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								456,
-								456
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/controllers/reviews_controller.rb",
-					"settings":
-					{
-						"buffer_size": 790,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								760,
-								760
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "app/controllers/favorites_controller.rb",
-					"settings":
-					{
-						"buffer_size": 529,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								209,
-								209
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "app/views/layouts/_sidebar.html.erb",
-					"settings":
-					{
-						"buffer_size": 782,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "app/helpers/application_helper.rb",
-					"settings":
-					{
-						"buffer_size": 376,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -957,6 +676,38 @@
 		"selected_items":
 		[
 			[
+				"form",
+				"app/views/movies/_form.html.erb"
+			],
+			[
+				"helper",
+				"app/helpers/movies_helper.rb"
+			],
+			[
+				"attri",
+				"spec/support/attributes.rb"
+			],
+			[
+				"showe",
+				"spec/features/show_movie_spec.rb"
+			],
+			[
+				"list",
+				"spec/features/list_movies_spec.rb"
+			],
+			[
+				"crea",
+				"spec/features/create_movie_spec.rb"
+			],
+			[
+				"movie",
+				"app/models/movie.rb"
+			],
+			[
+				"la",
+				"app/assets/stylesheets/layout.css.scss"
+			],
+			[
 				"side",
 				"app/views/layouts/_sidebar.html.erb"
 			],
@@ -981,10 +732,6 @@
 				"app/controllers/movies_controller.rb"
 			],
 			[
-				"movie",
-				"app/models/movie.rb"
-			],
-			[
 				"route",
 				"config/routes.rb"
 			],
@@ -1003,10 +750,6 @@
 			[
 				"show",
 				"app/views/users/show.html.erb"
-			],
-			[
-				"form",
-				"app/views/movies/_form.html.erb"
 			],
 			[
 				"genre",
@@ -1051,10 +794,6 @@
 			[
 				"revie",
 				"app/controllers/reviews_controller.rb"
-			],
-			[
-				"list",
-				"spec/features/list_reviews_spec.rb"
 			],
 			[
 				"cre",
@@ -1171,6 +910,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 163.0,
+	"side_bar_width": 211.0,
 	"status_bar_visible": true
 }
