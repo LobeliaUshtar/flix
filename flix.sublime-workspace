@@ -316,6 +316,8 @@
 	},
 	"file_history":
 	[
+		"/C/GitHub/flix/.gitignore",
+		"/C/GitHub/flix/app/views/layouts/_sidebar.html.erb",
 		"/C/GitHub/flix/app/models/movie.rb",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/exercise-solutions/13-friendly-urls/flix/app/views/movies/show.html.erb",
 		"/C/GitHub/flix/app/views/movies/show.html.erb",
@@ -342,7 +344,6 @@
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/exercise-solutions/11-scopes/flix/spec/models/movie_spec.rb",
 		"/C/GitHub/flix/app/assets/stylesheets/layout.css.scss",
 		"/C/GitHub/flix/app/helpers/application_helper.rb",
-		"/C/GitHub/flix/app/views/layouts/_sidebar.html.erb",
 		"/C/GitHub/flix/app/controllers/favorites_controller.rb",
 		"/C/GitHub/flix/app/controllers/reviews_controller.rb",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/exercise-solutions/13-friendly-urls/flix/app/models/movie.rb",
@@ -423,7 +424,6 @@
 		"/C/GitHub/flix/app/assets/stylesheets/application.css",
 		"/C/GitHub/flix/config/application.rb",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/01-user-accounts-model/events/spec/spec_helper.rb",
-		"/C/GitHub/flix/.gitignore",
 		"/C/GitHub/furcons/Gemfile",
 		"/C/GitHub/flix/furcons.bat",
 		"/C/GitHub/flix/crowdfund.bat",
@@ -451,7 +451,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"C:\\GitHub\\flix",
@@ -901,7 +901,7 @@
 		[
 			[
 				"",
-				"/C/GitHub/furcons/furcons.sublime-project"
+				"/C/GitHub/Funds/funds.sublime-project"
 			]
 		],
 		"width": 380.0
