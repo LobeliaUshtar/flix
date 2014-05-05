@@ -317,6 +317,7 @@
 	"file_history":
 	[
 		"/C/GitHub/flix/.gitignore",
+		"/C/GitHub/flix/app/views/movies/_form.html.erb",
 		"/C/GitHub/flix/app/views/layouts/_sidebar.html.erb",
 		"/C/GitHub/flix/app/models/movie.rb",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/exercise-solutions/13-friendly-urls/flix/app/views/movies/show.html.erb",
@@ -329,7 +330,6 @@
 		"/C/GitHub/flix/spec/controllers/movies_controller_spec.rb",
 		"/C/GitHub/flix/db/seeds.rb",
 		"/C/GitHub/flix/app/helpers/movies_helper.rb",
-		"/C/GitHub/flix/app/views/movies/_form.html.erb",
 		"/C/GitHub/flix/spec/controllers/favorites_controller_spec.rb",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/exercise-solutions/13-friendly-urls/flix/spec/controllers/favorites_controller_spec.rb",
 		"/C/GitHub/flix/app/controllers/movies_controller.rb",
@@ -901,7 +901,7 @@
 		[
 			[
 				"",
-				"/C/GitHub/Funds/funds.sublime-project"
+				"/C/GitHub/furcons/furcons.sublime-project"
 			]
 		],
 		"width": 380.0
